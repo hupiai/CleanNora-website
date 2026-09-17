@@ -1,0 +1,5 @@
+includes/db.php
+.env
+.env.*
+*.log
+.DS_Store
