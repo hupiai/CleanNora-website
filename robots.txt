@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /provider/
+Disallow: /customer/
+Sitemap: https://www.cleannora.com/sitemap.xml
