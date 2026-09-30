@@ -1,4 +1,6 @@
 <?php
+$pageTitle = 'InstaMart Products | Home Cleaning Products by CleanNora';
+$pageDescription = 'Explore available CleanNora home-care and cleaning products in InstaMart.';
 include 'includes/header.php';
 include 'includes/db.php';
 
@@ -21,7 +23,7 @@ if ($result) {
 
 <style>
 /* =========================================================
-   CLEANMART ALL PRODUCTS PAGE
+   INSTAMART ALL PRODUCTS PAGE
    ========================================================= */
 
 .cm-products-page {
@@ -295,7 +297,7 @@ if ($result) {
 
         <div class="cm-products-header">
 
-            <span class="eyebrow">CLEANMART COLLECTION</span>
+            <span class="eyebrow">INSTAMART COLLECTION</span>
 
             <h1>All Cleaning Products</h1>
 
@@ -338,7 +340,7 @@ if ($result) {
                 <?php foreach ($products as $product) { ?>
 
                     <?php
-                    $productName = $product['name'] ?? 'CleanMart Product';
+                    $productName = $product['name'] ?? 'InstaMart Product';
 
                     $image = $product['main_image'] ?? '';
 
@@ -427,7 +429,7 @@ if ($result) {
 
                 <p>
                     Products will appear here once they are added
-                    to CleanMart.
+                    to InstaMart.
                 </p>
 
             </div>
