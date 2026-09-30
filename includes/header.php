@@ -15,11 +15,11 @@ $pageClass = 'public-page page-' . preg_replace('/[^a-z0-9-]/', '-', $pageName);
 
 $siteTitle = !empty($pageTitle)
     ? $pageTitle
-    : 'Cleannora Home Services';
+    : 'CleanNora Home Services';
 
 $siteDescription = !empty($pageDescription)
     ? $pageDescription
-    : 'Professional home cleaning and maid services by Cleannora.';
+    : 'Book trusted home services with CleanNora including maid, cook, salon, cleaning, AC service, electrician and plumber.';
 ?>
 
 <!DOCTYPE html>
@@ -112,6 +112,13 @@ $canonicalUrl = 'https://cleannora.com' . $requestPath;
     window.cleannoraFirebaseAuth = getAuth(app);
 </script>
 
+<meta property="og:title" content="<?= htmlspecialchars($siteTitle, ENT_QUOTES, 'UTF-8'); ?>">
+<meta property="og:description" content="<?= htmlspecialchars($siteDescription, ENT_QUOTES, 'UTF-8'); ?>">
+<meta property="og:url" content="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CleanNora">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 </head>
 
 
@@ -133,7 +140,7 @@ $canonicalUrl = 'https://cleannora.com' . $requestPath;
         <a href="/" class="cleannora-logo">
     <img
         src="/assets/images/logo.png"
-        alt="Cleannora"
+        alt="CleanNora home services"
     >
 </a>
 
