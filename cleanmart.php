@@ -30,11 +30,11 @@ $productsResult = mysqli_query($conn, $productsQuery);
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>Home Cleaning Products | CleanMart by CleanNora</title>
+    <title>InstaMart by CleanNora | Home Cleaning & Care Products</title>
     <link rel="canonical" href="https://cleannora.com/cleanmart.php">
 
     <meta name="description"
-          content="Shop home cleaning and home-care products from CleanMart by CleanNora. Browse available household cleaning essentials online.">
+          content="Shop CleanNora home cleaning and home-care products in InstaMart. Browse hand wash, floor care, dishwash, toilet and glass-cleaning products as available.">
 
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
@@ -69,7 +69,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
            class="cm-logo">
 
             <img src="assets/images/logo.png"
-                 alt="CleanMart">
+                 alt="InstaMart">
 
         </a>
 
@@ -94,7 +94,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
 
     <a href="cleanmart.php"
        class="active">
-        CleanMart
+        InstaMart
     </a>
 
 </nav>
@@ -225,7 +225,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
 </section>
 
 <!-- =====================================================
-     CLEANMART MAIN HERO SLIDER
+     INSTAMART MAIN HERO SLIDER
 ===================================================== -->
 
 <section class="cm-main-hero-slider">
@@ -238,7 +238,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
                 <div class="cm-main-hero-image">
                     <img
                         src="assets/images/banners/cleanmart/cleanmart-banner-1.webp"
-                        alt="CleanMart Premium Cleaning Products">
+                        alt="InstaMart Premium Cleaning Products">
                 </div>
             </div>
         </div>
@@ -250,7 +250,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
                 <div class="cm-main-hero-image">
                     <img
                         src="assets/images/banners/cleanmart/cleanmart-banner-2.webp"
-                        alt="CleanMart Special Offer">
+                        alt="InstaMart Special Offer">
                 </div>
             </div>
         </div>
@@ -262,7 +262,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
                 <div class="cm-main-hero-image">
                     <img
                         src="assets/images/banners/cleanmart/cleanmart-banner-3.webp"
-                        alt="CleanMart Fast Delivery">
+                        alt="InstaMart Fast Delivery">
                 </div>
             </div>
         </div>
@@ -862,7 +862,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
 
                 <img
                     src="assets/images/logo.png"
-                    alt="CleanMart">
+                    alt="InstaMart">
 
                 <p>
                     Your one-stop shop for premium
@@ -1029,7 +1029,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
         <div class="cm-footer-bottom">
 
             <span>
-                © 2026 CleanMart by CleanNora.
+                © 2026 InstaMart by CleanNora.
                 All Rights Reserved.
             </span>
 
