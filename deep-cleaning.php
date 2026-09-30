@@ -120,7 +120,7 @@ include 'includes/header.php';
 
                 <img
                     src="assets/images/services/deep-cleaning-page/deep-cleaning-hero.webp"
-                    alt="Professional Deep Cleaning Service by Cleannora"
+                    alt="Professional Deep Cleaning Service by CleanNora"
                     loading="eager"
                 >
 
@@ -515,7 +515,7 @@ include 'includes/header.php';
 
                 <h2>
                     See the<br>
-                    Cleannora<br>
+                    CleanNora<br>
                     Difference
                 </h2>
 
@@ -816,7 +816,7 @@ include 'includes/header.php';
                         </summary>
 
                         <p>
-                            Cleannora professionals are trained and
+                            CleanNora professionals are trained and
                             verified before providing cleaning services.
                         </p>
 
@@ -889,7 +889,7 @@ include 'includes/header.php';
                     </h2>
 
                     <p>
-                        Book a professional Cleannora deep cleaning
+                        Book a professional CleanNora deep cleaning
                         service today and enjoy a spotless,
                         stress-free home.
                     </p>
