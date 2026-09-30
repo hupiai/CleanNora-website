@@ -1,4 +1,8 @@
-<?php include 'includes/header-v2.php'; ?>
+<?php
+$pageTitle = 'Home Services in Noida | Maid, Cook, Salon, Cleaning & Repair | CleanNora';
+$pageDescription = 'Explore CleanNora home services in Noida including instant maid, cook, home salon, home cleaning, bathroom and kitchen cleaning, AC service, electrician, plumber and more.';
+include 'includes/header.php';
+?>
 
 <main class="cn-services-page">
 
@@ -18,7 +22,7 @@
                     </span>
 
                     <h2>
-                        Our Cleaning Services
+                        Home Services in Noida
                     </h2>
 
                 </div>
