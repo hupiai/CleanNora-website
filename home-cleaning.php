@@ -114,7 +114,7 @@ include 'includes/header.php';
 
                 <img
                     src="assets/images/services/home-cleaning/home-cleaning-hero.webp"
-                    alt="Professional Home Cleaning Service by Cleannora"
+                    alt="Professional Home Cleaning Service by CleanNora"
                     loading="eager"
                 >
 
@@ -504,7 +504,7 @@ include 'includes/header.php';
 
                     <h2>
                         See the<br>
-                        Cleannora<br>
+                        CleanNora<br>
                         Difference
                     </h2>
 
@@ -787,7 +787,7 @@ include 'includes/header.php';
                         </summary>
 
                         <p>
-                            Yes. Cleannora professionals are trained
+                            Yes. CleanNora professionals are trained
                             and verified before providing cleaning services.
                         </p>
 
@@ -854,7 +854,7 @@ include 'includes/header.php';
                     </h2>
 
                     <p>
-                        Book a professional Cleannora home cleaning
+                        Book a professional CleanNora home cleaning
                         service today and enjoy a spotless, stress-free home.
                     </p>
 
