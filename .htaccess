@@ -1,0 +1,65 @@
+RewriteEngine On
+
+# Why Cleannora -> Who We Are
+RewriteCond %{THE_REQUEST} \s/+why-cleannora\.php(?:[?\s]|$) [NC]
+RewriteRule ^why-cleannora\.php$ /who-we-are.php [R=301,L]
+
+# Homepage index.php -> clean homepage URL
+RewriteCond %{THE_REQUEST} \s/+index\.php(?:[?\s]|$) [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# =========================================================
+# CLEANNORA NOIDA SEO URLS
+# =========================================================
+
+# ---------------------------------------------------------
+# 1. MAIN NOIDA PAGE
+# Clean URL:
+# /cleaning-services/noida
+# Opens:
+# /locations/noida.php
+# ---------------------------------------------------------
+RewriteRule ^cleaning-services/noida/?$ /locations/noida.php [L,QSA]
+
+# Old PHP URL -> Clean URL
+RewriteRule ^locations/noida\.php$ /cleaning-services/noida [R=301,L]
+
+# =========================================================
+# 3. SERVICE + SECTOR SEO PAGES
+# =========================================================
+
+# Sector 100 - Home Cleaning
+RewriteRule ^cleaning-services/noida/sector-100/home-cleaning/?$ /locations/noida-sector-100-home-cleaning.php [L,QSA]
+
+# Old PHP URL -> Clean SEO URL
+RewriteRule ^locations/noida-sector-100-home-cleaning\.php$ /cleaning-services/noida/sector-100/home-cleaning [R=301,L]
+
+# =========================================================
+# DYNAMIC SERVICE + SECTOR SEO PAGES
+# =========================================================
+
+# Service + Sector clean URL -> PHP location file
+RewriteRule ^cleaning-services/noida/sector-([0-9]+[A-Za-z]?)/(home-cleaning|deep-cleaning|kitchen-cleaning|bathroom-cleaning|sofa-cleaning|carpet-cleaning|window-cleaning|office-cleaning|car-cleaning|move-in-out-cleaning|instant-maid)/?$ /locations/noida-sector-$1-$2.php [L,QSA]
+
+# Old PHP URL -> Clean SEO URL
+RewriteCond %{THE_REQUEST} \s/+locations/noida-sector-([0-9]+[A-Za-z]?)-(home-cleaning|deep-cleaning|kitchen-cleaning|bathroom-cleaning|sofa-cleaning|carpet-cleaning|window-cleaning|office-cleaning|car-cleaning|move-in-out-cleaning|instant-maid)\.php(?:[?\s]|$) [NC]
+RewriteRule ^locations/noida-sector-([0-9]+[A-Za-z]?)-(home-cleaning|deep-cleaning|kitchen-cleaning|bathroom-cleaning|sofa-cleaning|carpet-cleaning|window-cleaning|office-cleaning|car-cleaning|move-in-out-cleaning|instant-maid)\.php$ /cleaning-services/noida/sector-$1/$2 [R=301,L]
+
+
+# ---------------------------------------------------------
+# 2. NOIDA SECTOR PAGES
+#
+# Examples:
+# /cleaning-services/noida/sector-46
+# /cleaning-services/noida/sector-93A
+# /cleaning-services/noida/sector-108
+#
+# Opens:
+# /locations/noida-sector-46.php
+# /locations/noida-sector-93a.php
+# /locations/noida-sector-108.php
+# ---------------------------------------------------------
+RewriteRule ^cleaning-services/noida/sector-([0-9]+[A-Za-z]?)/?$ /locations/noida-sector-$1.php [L,QSA]
+
+# Old PHP sector URL -> Clean SEO URL
+RewriteRule ^locations/noida-sector-([0-9]+[A-Za-z]?)\.php$ /cleaning-services/noida/sector-$1 [R=301,L]

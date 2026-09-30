@@ -1,19 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.cleannora.com/</loc></url>
-<url><loc>https://www.cleannora.com/services.php</loc></url>
-<url><loc>https://www.cleannora.com/near-me-noida.php</loc></url>
-<url><loc>https://www.cleannora.com/service-areas.php</loc></url>
-<url><loc>https://www.cleannora.com/become-a-partner.php</loc></url>
-<url><loc>https://www.cleannora.com/instant-maid.php</loc></url>
-<url><loc>https://www.cleannora.com/instant-cook.php</loc></url>
-<url><loc>https://www.cleannora.com/instant-plumber.php</loc></url>
-<url><loc>https://www.cleannora.com/beautician-at-home.php</loc></url>
-<url><loc>https://www.cleannora.com/toilet-cleaning.php</loc></url>
-<url><loc>https://www.cleannora.com/home-cleaning.php</loc></url>
-<url><loc>https://www.cleannora.com/car-cleaning.php</loc></url>
-<url><loc>https://www.cleannora.com/contact.php</loc></url>
-<url><loc>https://www.cleannora.com/who-we-are.php</loc></url>
-<url><loc>https://www.cleannora.com/support.php</loc></url>
-<url><loc>https://www.cleannora.com/blog.php</loc></url>
+
+    <!-- Main Website -->
+    <url>
+        <loc>https://cleannora.com/</loc>
+    </url>
+
+    <!-- Main Services -->
+    <url>
+        <loc>https://cleannora.com/services.php</loc>
+    </url>
+
+    <!-- Noida SEO Landing Page -->
+    <url>
+        <loc>https://cleannora.com/cleaning-services/noida</loc>
+    </url>
+
+    <!-- Noida Sector Pages -->
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-46</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-47</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-48</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-49</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-50</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-51</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-52</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-53</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-54</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-55</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-56</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-57</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-58</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-59</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-60</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-61</loc></url>
+
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-70</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-71</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-72</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-73</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-74</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-75</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-76</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-77</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-78</loc></url>
+
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-93</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-93a</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-93b</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-94</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-96</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-97</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-98</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-99</loc></url>
+
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-100</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-101</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-103</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-104</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-105</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-106</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-107</loc></url>
+    <url><loc>https://cleannora.com/cleaning-services/noida/sector-108</loc></url>
+
+    <!-- Service Pages -->
+    <url><loc>https://cleannora.com/instant-maid.php</loc></url>
+    <url><loc>https://cleannora.com/home-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/deep-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/kitchen-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/bathroom-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/sofa-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/carpet-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/window-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/office-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/car-cleaning.php</loc></url>
+    <url><loc>https://cleannora.com/move-in-out-cleaning.php</loc></url>
+
 </urlset>
