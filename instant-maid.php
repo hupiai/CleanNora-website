@@ -119,7 +119,7 @@ include 'includes/header.php';
 
                 <img
                     src="assets/images/services/instant-maid/instant-maid-hero.webp"
-                    alt="Professional Instant Maid Service by Cleannora"
+                    alt="Professional Instant Maid Service by CleanNora"
                     loading="eager"
                 >
 
@@ -516,7 +516,7 @@ include 'includes/header.php';
 
                     <h2>
                         See the<br>
-                        Cleannora<br>
+                        CleanNora<br>
                         Difference
                     </h2>
 
@@ -799,7 +799,7 @@ include 'includes/header.php';
                         </summary>
 
                         <p>
-                            Cleannora professionals are trained and
+                            CleanNora professionals are trained and
                             verified before providing household services.
                         </p>
 
@@ -892,7 +892,7 @@ include 'includes/header.php';
 
                     <p>
                         Get reliable Instant Maid assistance from
-                        Cleannora and enjoy a cleaner, more organized
+                        CleanNora and enjoy a cleaner, more organized
                         and comfortable home.
                     </p>
 
