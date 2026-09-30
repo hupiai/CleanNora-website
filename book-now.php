@@ -17,7 +17,7 @@ include 'includes/header.php';
             </h1>
 
             <p class="cn-section-subtitle">
-                Fill in your details and confirm your service, slot and plan securely.
+                Choose a regular slot or Instant Priority. Instant requests are dispatched first to a nearby eligible professional.
             </p>
         </div>
 
