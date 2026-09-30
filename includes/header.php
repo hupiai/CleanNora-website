@@ -185,12 +185,12 @@ $canonicalUrl = 'https://cleannora.com' . $requestPath;
             </a>
 
 
-            <!-- CLEANMART -->
+            <!-- INSTAMART -->
             <a
                 href="/cleanmart.php"
                 class="<?= ($currentPage === 'cleanmart.php') ? 'active' : ''; ?>"
             >
-                CleanMart
+                InstaMart
             </a>
 
         </div>
