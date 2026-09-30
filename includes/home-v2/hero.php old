@@ -1,0 +1,139 @@
+<section class="hero-v2">
+
+    <div class="hero-v2__bg"></div>
+
+    <div class="hero-v2__overlay"></div>
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- =======================
+                 LEFT CONTENT
+            ======================== -->
+
+            <div class="col-xl-6 col-lg-6">
+
+                <div class="hero-v2__content">
+
+                    <div class="hero-v2__badge">
+
+                        <i class="bi bi-patch-check-fill"></i>
+
+                        <span>
+                            Trusted by 10,000+ Happy Customers
+                        </span>
+
+                    </div>
+
+                    <h1 class="hero-v2__title">
+
+                        A Cleaner Home,
+
+                        <span>A Better Life.</span>
+
+                    </h1>
+
+                    <p class="hero-v2__text">
+
+                        Experience premium home cleaning with verified
+                        professionals. Book trusted Home Cleaning,
+                        Deep Cleaning, Kitchen Cleaning, Bathroom Cleaning,
+                        Sofa Cleaning and Office Cleaning in just a few clicks.
+
+                    </p>
+
+                    <div class="hero-v2__buttons">
+
+                        <a href="book-now.php"
+                           class="hero-btn hero-btn-primary">
+
+                            Book a Cleaning
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                        <a href="services.php"
+                           class="hero-btn hero-btn-outline">
+
+                            Explore Services
+
+                        </a>
+
+                    </div>
+
+                    <div class="hero-v2__trust">
+
+                        <div class="trust-item">
+
+                            <i class="bi bi-patch-check-fill"></i>
+
+                            Verified Professionals
+
+                        </div>
+
+                        <div class="trust-item">
+
+                            <i class="bi bi-clock-history"></i>
+
+                            On-Time Arrival
+
+                        </div>
+
+                        <div class="trust-item">
+
+                            <i class="bi bi-shield-check"></i>
+
+                            Satisfaction Guarantee
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- =======================
+                 RIGHT CONTENT
+            ======================== -->
+
+            <div class="col-xl-6 col-lg-6">
+
+                <div class="hero-v2__visual">
+
+                    <img
+                        src="assets/images/hero/rating-badge.png"
+                        alt="Rating"
+                        class="hero-rating">
+
+                    <img
+                        src="assets/images/hero/hero-maid.png"
+                        alt="Cleannora Maid"
+                        class="hero-maid">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom Wave -->
+
+    <svg
+        class="hero-wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 160"
+        preserveAspectRatio="none">
+
+        <path
+            fill="#ffffff"
+            d="M0,96L80,101.3C160,107,320,117,480,106.7C640,96,800,64,960,69.3C1120,75,1280,117,1360,138.7L1440,160L1440,160L1360,160C1280,160,1120,160,960,160C800,160,640,160,480,160C320,160,160,160,80,160L0,160Z">
+        </path>
+
+    </svg>
+
+</section>
