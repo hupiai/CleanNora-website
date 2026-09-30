@@ -119,7 +119,7 @@
                 <div class="how-image">
 
                     <img src="assets/images/how-it-works.webp"
-                         alt="How Cleannora Works"
+                         alt="How CleanNora Works"
                          class="img-fluid">
 
                     <div class="floating-card">
