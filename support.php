@@ -61,7 +61,7 @@ include 'includes/header.php';
             <div class="support-hero-visual">
     <img
         src="./assets/images/support-hero.webp"
-        alt="Cleannora customer support executive"
+        alt="CleanNora customer support executive"
     >
 </div>
 
