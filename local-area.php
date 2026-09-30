@@ -1,0 +1,21 @@
+<?php
+$slug=strtolower(trim($_GET['area']??'noida'));
+$data=[
+'noida'=>['Noida','Noida sectors including 46–61, 70–79 and 93–108','201301, 201303, 201304, 201305, 201307, 201309, 201313'],
+'greater-noida'=>['Greater Noida','Alpha, Beta, Gamma, Delta, Pari Chowk, Knowledge Park and Surajpur','201306, 201310, 201311, 201312'],
+'gaur-city'=>['Greater Noida West & Gaur City','Gaur City 1, Gaur City 2, Gaur Chowk, Noida Extension and nearby societies','Exact PIN checked from service address'],
+'indirapuram'=>['Indirapuram','Ahinsa Khand, Niti Khand, Shakti Khand, Vaibhav Khand, Nyay Khand, Gyan Khand and Shipra Suncity','201014 and nearby postal zones'],
+'ghaziabad'=>['Ghaziabad','Vasundhara, Govindpuram, Crossing Republik and supported nearby neighbourhoods','201012, 201013, 201016 and nearby postal zones']
+];
+if(!isset($data[$slug])){http_response_code(404);$slug='noida';}
+[$area,$localities,$pins]=$data[$slug];
+$pageTitle="Home Services in $area | Maid, Cook, Salon, Cleaning & Repair | CleanNora";
+$pageDescription="Book CleanNora home services in $area including maid, cook, beautician at home, home cleaning, bathroom cleaning, AC service, electrician and plumber. Check availability near you.";
+include 'includes/header.php';
+$services=[['Instant Maid','Instant%20Maid'],['Instant Cook','Cook'],['Home Salon & Beautician','Salon%20Services'],['AC Service & Repair','AC%20Service%20%26%20Repair'],['Electrician','Electrician'],['Plumber','Plumber']];
+?>
+<style>.la{max-width:1120px;margin:auto;padding:60px 20px}.la h1{color:#063a29;font-weight:850;font-size:clamp(34px,5vw,56px)}.la-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}.la-card{padding:22px;border:1px solid #dfe8e3;border-radius:18px;text-decoration:none;color:#063a29;background:#fff}.la-card h2{font-size:19px}.la-note{background:#f6f9f7;border-radius:18px;padding:24px;margin-top:28px}@media(max-width:700px){.la-grid{grid-template-columns:1fr}}</style>
+<main class="la"><p><a href="/service-areas.php">Service Areas</a> › <?= htmlspecialchars($area) ?></p><h1>Home Services in <?= htmlspecialchars($area) ?> Near You</h1><p>CleanNora connects customers with home-service professionals across <?= htmlspecialchars($localities) ?>. Search and book maid, cook, beautician at home, home salon, cleaning, AC repair, electrician and plumber services from one place.</p>
+<div class="la-grid"><?php foreach($services as $s): ?><a class="la-card" href="/booking-service.php?service=<?= $s[1] ?>"><h2><?= htmlspecialchars($s[0]) ?> in <?= htmlspecialchars($area) ?></h2><p>Check available service options and book at your address.</p></a><?php endforeach; ?><a class="la-card" href="/home-cleaning.php"><h2>Home Cleaning in <?= htmlspecialchars($area) ?></h2><p>Professional cleaning for apartments and homes.</p></a><a class="la-card" href="/bathroom-cleaning.php"><h2>Bathroom Cleaning in <?= htmlspecialchars($area) ?></h2><p>Book bathroom cleaning at home.</p></a><a class="la-card" href="/kitchen-cleaning.php"><h2>Kitchen Cleaning in <?= htmlspecialchars($area) ?></h2><p>Book kitchen cleaning at home.</p></a></div>
+<section class="la-note"><h2>Areas & PIN-code coverage</h2><p><strong>Localities:</strong> <?= htmlspecialchars($localities) ?></p><p><strong>Relevant postal zones:</strong> <?= htmlspecialchars($pins) ?>. Exact serviceability is checked using the customer's full service address.</p><p>For booking help call <a href="tel:+919205080012">+91 9205080012</a>.</p></section>
+</main><?php include 'includes/footer.php'; ?>
