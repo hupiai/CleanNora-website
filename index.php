@@ -34,6 +34,7 @@ include 'includes/header.php';
 <main>
 <?php include 'includes/home/hero.php'; ?>
 <?php include 'includes/home/services.php'; ?>
+<?php include 'includes/home/instamart-highlight.php'; ?>
 <?php include 'includes/home/local-seo.php'; ?>
 <?php include 'includes/home/why.php'; ?>
 <?php include 'includes/home/how.php'; ?>
