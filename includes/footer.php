@@ -8,7 +8,7 @@
             <div class="cn-footer-brand">
 
                 <a href="index.php" class="cn-footer-logo">
-                    <img src="/assets/images/logo.png" alt="Cleannora">
+                    <img src="/assets/images/logo.png" alt="CleanNora">
                 </a>
 
                 <p>
@@ -66,6 +66,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="services.php">Explore Services</a></li>
                     <li><a href="who-we-are.php">Who We Are</a></li>
+                    <li><a href="become-a-partner.php">Partner With Us</a></li>
                     <li><a href="support.php">Support</a></li>
                     <li><a href="cleanmart.php">InstaMart</a></li>
                     <li><a href="blog.php">Blog</a></li>
@@ -154,7 +155,7 @@
         <div class="cn-footer-bottom-inner">
 
             <p>
-                © 2026 Cleannora. All Rights Reserved.
+                © 2026 CleanNora. All Rights Reserved.
             </p>
 
         </div>
