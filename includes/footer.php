@@ -67,7 +67,7 @@
                     <li><a href="services.php">Explore Services</a></li>
                     <li><a href="who-we-are.php">Who We Are</a></li>
                     <li><a href="support.php">Support</a></li>
-                    <li><a href="cleanmart.php">CleanMart</a></li>
+                    <li><a href="cleanmart.php">InstaMart</a></li>
                     <li><a href="blog.php">Blog</a></li>
                 </ul>
 
