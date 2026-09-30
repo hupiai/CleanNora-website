@@ -114,7 +114,7 @@ include 'includes/header.php';
 
                 <img
                     src="assets/images/services/sofa-cleaning/sofa-cleaning-hero.webp"
-                    alt="Professional Sofa Cleaning Service by Cleannora"
+                    alt="Professional Sofa Cleaning Service by CleanNora"
                     loading="eager"
                 >
 
@@ -504,7 +504,7 @@ include 'includes/header.php';
 
                     <h2>
                         See the<br>
-                        Cleannora<br>
+                        CleanNora<br>
                         Difference
                     </h2>
 
@@ -802,7 +802,7 @@ include 'includes/header.php';
                         </summary>
 
                         <p>
-                            Yes. Cleannora professionals are trained
+                            Yes. CleanNora professionals are trained
                             and verified before providing cleaning services.
                         </p>
 
@@ -854,7 +854,7 @@ include 'includes/header.php';
                     </h2>
 
                     <p>
-                        Book professional Cleannora sofa cleaning
+                        Book professional CleanNora sofa cleaning
                         and give your furniture a fresh, cleaner look.
                     </p>
 
