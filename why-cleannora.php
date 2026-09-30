@@ -5,10 +5,10 @@
 
 <div class="cn-section-head text-center">
 
-<span class="cn-badge">Why Cleannora</span>
+<span class="cn-badge">Why CleanNora</span>
 
 <h1 class="cn-section-title">
-Why Thousands Trust Cleannora
+Why Thousands Trust CleanNora
 </h1>
 
 <p class="cn-section-subtitle">
@@ -73,7 +73,7 @@ Our Mission
 </h2>
 
 <p>
-Cleannora aims to provide reliable, affordable and professional home cleaning services with complete customer satisfaction.
+CleanNora aims to provide reliable, affordable and professional home cleaning services with complete customer satisfaction.
 </p>
 
 <p>
@@ -86,7 +86,7 @@ We believe every home deserves a clean, healthy and stress-free environment.
 
 <img src="assets/images/hero-maid.png"
 class="img-fluid rounded-4 shadow"
-alt="Cleannora">
+alt="CleanNora">
 
 </div>
 
@@ -105,7 +105,7 @@ Book Today
 </span>
 
 <h2 class="cn-section-title">
-Ready To Experience Cleannora?
+Ready To Experience CleanNora?
 </h2>
 
 <p class="cn-section-subtitle">
