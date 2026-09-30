@@ -30,10 +30,11 @@ $productsResult = mysqli_query($conn, $productsQuery);
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>CleanMart | Premium Cleaning Products by Cleannora</title>
+    <title>Home Cleaning Products | CleanMart by CleanNora</title>
+    <link rel="canonical" href="https://cleannora.com/cleanmart.php">
 
     <meta name="description"
-          content="Shop premium cleaning products and home care essentials from Cleannora through CleanMart.">
+          content="Shop home cleaning and home-care products from CleanMart by CleanNora. Browse available household cleaning essentials online.">
 
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
@@ -83,11 +84,11 @@ $productsResult = mysqli_query($conn, $productsQuery);
         Explore Services
     </a>
 
-    <a href="about.php">
+    <a href="who-we-are.php">
         Who We Are
     </a>
 
-    <a href="help.php">
+    <a href="support.php">
         Support
     </a>
 
@@ -116,7 +117,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
             </div>
 
 
-            <a href="account.php"
+            <a href="customer/bookings.php"
                class="cm-icon-btn">
 
                 <i class="bi bi-person"></i>
@@ -604,7 +605,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
 
     <img
         src="assets/images/cleanmart/offer-products.webp"
-        alt="Cleannora Cleaning Products Offer">
+        alt="CleanNora Cleaning Products Offer">
 
 </div>
 
@@ -1028,7 +1029,7 @@ $productsResult = mysqli_query($conn, $productsQuery);
         <div class="cm-footer-bottom">
 
             <span>
-                © 2026 CleanMart by Cleannora.
+                © 2026 CleanMart by CleanNora.
                 All Rights Reserved.
             </span>
 
