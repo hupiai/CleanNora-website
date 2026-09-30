@@ -16,7 +16,7 @@
             </h2>
 
             <p>
-                Everything you need to know about Cleannora cleaning services.
+                Everything you need to know about CleanNora cleaning services.
             </p>
 
         </div>
@@ -27,13 +27,13 @@
             <div class="cn-faq-item active">
 
                 <button class="cn-faq-question" type="button">
-                    <span>What cleaning services does Cleannora provide?</span>
+                    <span>What cleaning services does CleanNora provide?</span>
                     <i class="bi bi-plus"></i>
                 </button>
 
                 <div class="cn-faq-answer">
                     <p>
-                        Cleannora provides professional home and commercial cleaning
+                        CleanNora provides professional home and commercial cleaning
                         services including home cleaning, deep cleaning, kitchen
                         cleaning, bathroom cleaning, sofa cleaning, carpet cleaning,
                         window cleaning, office cleaning and more.
@@ -52,7 +52,7 @@
 
                 <div class="cn-faq-answer">
                     <p>
-                        You can book a service directly through the Cleannora
+                        You can book a service directly through the CleanNora
                         website by selecting your preferred service, choosing a
                         suitable date and time, and completing your booking details.
                     </p>
@@ -64,13 +64,13 @@
             <div class="cn-faq-item">
 
                 <button class="cn-faq-question" type="button">
-                    <span>Which areas does Cleannora currently serve?</span>
+                    <span>Which areas does CleanNora currently serve?</span>
                     <i class="bi bi-plus"></i>
                 </button>
 
                 <div class="cn-faq-answer">
                     <p>
-                        Cleannora currently provides cleaning services in Noida
+                        CleanNora currently provides cleaning services in Noida
                         and Greater Noida.
                     </p>
                 </div>
@@ -104,7 +104,7 @@
 
                 <div class="cn-faq-answer">
                     <p>
-                        Yes. Cleannora provides booking management and tracking
+                        Yes. CleanNora provides booking management and tracking
                         options so you can keep track of your service.
                     </p>
                 </div>
