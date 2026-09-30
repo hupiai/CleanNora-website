@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Who We Are | Cleannora";
-$pageDescription = "Discover Cleannora — professional home cleaning built around trust, quality and care.";
+$pageTitle = "Who We Are | CleanNora";
+$pageDescription = "Discover CleanNora — professional home cleaning built around trust, quality and care.";
 
 include 'includes/header.php';
 ?>
@@ -32,7 +32,7 @@ include 'includes/header.php';
             </h2>
 
             <p>
-                Cleannora brings reliable, professional home cleaning
+                CleanNora brings reliable, professional home cleaning
                 to modern households with trained experts, thoughtful
                 service and attention to every detail. We make everyday
                 spaces fresher, healthier and easier to enjoy.
@@ -69,7 +69,7 @@ include 'includes/header.php';
 
             <img
                 src="/assets/images/about/who-we-are-hero.webp"
-                alt="Cleannora professional home cleaning expert"
+                alt="CleanNora professional home cleaning expert"
             >
 
             <div class="cn-about-hero-badge">
@@ -94,7 +94,7 @@ include 'includes/header.php';
 
             <img
     src="/assets/images/about/our-mission.webp"
-    alt="Cleannora professional cleaning service"
+    alt="CleanNora professional cleaning service"
 >
 
         </div>
@@ -220,7 +220,7 @@ include 'includes/header.php';
             </h2>
 
             <p>
-                Every Cleannora visit is built around professionalism,
+                Every CleanNora visit is built around professionalism,
                 consistency and respect for your home. From booking
                 to completion, we focus on delivering a service
                 you can confidently rely on.
@@ -309,7 +309,7 @@ include 'includes/header.php';
 
            <img
     src="/assets/images/about/our-team.webp"
-    alt="Cleannora professional cleaning team"
+    alt="CleanNora professional cleaning team"
 >
 
         </div>
