@@ -66,3 +66,6 @@ RewriteRule ^locations/noida-sector-([0-9]+[A-Za-z]?)\.php$ /cleaning-services/n
 # CleanNora local SEO landing pages
 RewriteEngine On
 RewriteRule ^home-services/(noida|greater-noida|gaur-city|indirapuram|ghaziabad)/?$ local-area.php?area=$1 [L,QSA]
+
+# CleanNora local sector SEO
+RewriteRule ^home-services/noida/sector-([0-9]+[a-z]?)$ local-sector.php?city=noida&sector=$1 [L,QSA,NC]
