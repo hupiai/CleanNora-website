@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Blog | Cleaning Tips, Guides & Home Care Ideas | Cleannora";
-$pageDescription = "Discover practical cleaning tips, home care guides, deep cleaning advice and useful cleaning insights from Cleannora.";
+$pageTitle = "Blog | Cleaning Tips, Guides & Home Care Ideas | CleanNora";
+$pageDescription = "Discover practical cleaning tips, home care guides, deep cleaning advice and useful cleaning insights from CleanNora.";
 ?>
 
 <?php include 'includes/header.php'; ?>
@@ -748,7 +748,7 @@ $pageDescription = "Discover practical cleaning tips, home care guides, deep cle
 
                     <h2>
                         Stay Updated With<br>
-                        Cleannora Blog
+                        CleanNora Blog
                     </h2>
 
                     <p>
