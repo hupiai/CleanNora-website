@@ -26,21 +26,45 @@
   </div>
   <div class="cn-help-grid">
 <?php
-$homeServices = [
- ['Instant Maid','99','bi-person-check','Instant Maid'],
- ['Cook','299','bi-cup-hot','Cook'],
- ['House Cleaning','2999','bi-house-door','Home Cleaning'],
- ['Bathroom Cleaning','449','bi-droplet','Bathroom Cleaning'],
- ['Kitchen Cleaning','699','bi-grid','Kitchen Cleaning'],
- ['Sofa Cleaning','399','bi-house-heart','Sofa Cleaning'],
- ['AC Service & Repair','399','bi-snow','AC Service & Repair'],
- ['Electrician','299','bi-lightning-charge','Electrician'],
- ['Plumber','299','bi-wrench-adjustable','Plumber'],
- ['Chimney & Hob','499','bi-fire','Chimney & Hob'],
- ['Car Cleaning','299','bi-car-front','Car Cleaning'],
- ['Product AMC','999','bi-tools','Product AMC'],
- ['Home Salon','299','bi-scissors','Salon Services']
+require_once __DIR__ . '/../supabase.php';
+
+$serviceMeta = [
+ 'instant-maid' => ['Instant Maid','bi-person-check','Instant Maid'],
+ 'instant-cook' => ['Cook','bi-cup-hot','Cook'],
+ 'home-cleaning' => ['House Cleaning','bi-house-door','Home Cleaning'],
+ 'bathroom-cleaning' => ['Bathroom Cleaning','bi-droplet','Bathroom Cleaning'],
+ 'sofa-cleaning' => ['Sofa Cleaning','bi-house-heart','Sofa Cleaning'],
+ 'ac-service' => ['AC Service & Repair','bi-snow','AC Service & Repair'],
+ 'electrician' => ['Electrician','bi-lightning-charge','Electrician'],
+ 'plumber' => ['Plumber','bi-wrench-adjustable','Plumber'],
+ 'beautician-at-home' => ['Home Salon','bi-scissors','Salon Services']
 ];
+
+$rows = cleannora_supabase_get('services', 'select=slug,starting_price&is_active=eq.true&order=sort_order.asc');
+$prices = [];
+foreach ($rows as $row) {
+    if (isset($row['slug'], $row['starting_price'])) $prices[$row['slug']] = $row['starting_price'];
+}
+
+$homeServices = [];
+foreach ($serviceMeta as $slug => $meta) {
+    if (!array_key_exists($slug, $prices)) continue;
+    $homeServices[] = [$meta[0], rtrim(rtrim(number_format((float)$prices[$slug], 2, '.', ''), '0'), '.'), $meta[1], $meta[2]];
+}
+
+/* Safe preview fallback if Supabase is temporarily unreachable. */
+if (!$homeServices) {
+ $homeServices = [
+  ['Instant Maid','99','bi-person-check','Instant Maid'],
+  ['Cook','199','bi-cup-hot','Cook'],
+  ['House Cleaning','999','bi-house-door','Home Cleaning'],
+  ['Bathroom Cleaning','399','bi-droplet','Bathroom Cleaning'],
+  ['Sofa Cleaning','499','bi-house-heart','Sofa Cleaning'],
+  ['AC Service & Repair','299','bi-snow','AC Service & Repair'],
+  ['Electrician','149','bi-lightning-charge','Electrician'],
+  ['Plumber','149','bi-wrench-adjustable','Plumber']
+ ];
+}
 foreach ($homeServices as $s):
  $isSalon = $s[0] === 'Home Salon';
 ?>
