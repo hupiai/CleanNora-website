@@ -1,0 +1,23 @@
+CREATE TABLE cn_manual_bookings (
+    id CHAR(32) CHARACTER SET ascii COLLATE ascii_bin PRIMARY KEY,
+    request_hash CHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+    customer_name VARCHAR(100) NOT NULL,
+    phone CHAR(10) CHARACTER SET ascii NOT NULL,
+    area VARCHAR(120) NOT NULL,
+    address VARCHAR(500) NOT NULL,
+    service VARCHAR(100) NOT NULL,
+    plan VARCHAR(120) NOT NULL,
+    starts_at DATETIME NOT NULL,
+    source ENUM('Call','WhatsApp','Website callback') NOT NULL,
+    total_paise INT UNSIGNED NOT NULL,
+    notes VARCHAR(500) NOT NULL DEFAULT '',
+    partner VARCHAR(120) NOT NULL DEFAULT '',
+    status ENUM('pending','confirmed','assigned','completed','cancelled') NOT NULL DEFAULT 'pending',
+    created_by VARCHAR(128) NOT NULL,
+    updated_by VARCHAR(128) NOT NULL,
+    version INT UNSIGNED NOT NULL DEFAULT 1,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX manual_bookings_day (starts_at),
+    INDEX manual_bookings_phone (phone, starts_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
